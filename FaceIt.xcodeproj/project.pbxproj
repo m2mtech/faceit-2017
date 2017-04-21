@@ -12,6 +12,7 @@
 		5BDDB25E1EAA8D3F00354670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDB25C1EAA8D3F00354670 /* Main.storyboard */; };
 		5BDDB2601EAA8D3F00354670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDB25F1EAA8D3F00354670 /* Assets.xcassets */; };
 		5BDDB2631EAA8D3F00354670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDDB2611EAA8D3F00354670 /* LaunchScreen.storyboard */; };
+		5BDDB26C1EAA8E2900354670 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB26B1EAA8E2900354670 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		5BDDB25F1EAA8D3F00354670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDDB2621EAA8D3F00354670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BDDB2641EAA8D3F00354670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDDB26B1EAA8E2900354670 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		5BDDB26D1EAAAD3E00354670 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		5BDDB24C1EAA8D3F00354670 = {
 			isa = PBXGroup;
 			children = (
+				5BDDB26D1EAAAD3E00354670 /* README.md */,
 				5BDDB2571EAA8D3F00354670 /* FaceIt */,
 				5BDDB2561EAA8D3F00354670 /* Products */,
 			);
@@ -54,14 +58,23 @@
 		5BDDB2571EAA8D3F00354670 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				5BDDB2581EAA8D3F00354670 /* AppDelegate.swift */,
 				5BDDB25A1EAA8D3F00354670 /* ViewController.swift */,
+				5BDDB26B1EAA8E2900354670 /* FaceView.swift */,
 				5BDDB25C1EAA8D3F00354670 /* Main.storyboard */,
+				5BDDB26A1EAA8D9600354670 /* Supporting Files */,
+			);
+			path = FaceIt;
+			sourceTree = "<group>";
+		};
+		5BDDB26A1EAA8D9600354670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BDDB2581EAA8D3F00354670 /* AppDelegate.swift */,
 				5BDDB25F1EAA8D3F00354670 /* Assets.xcassets */,
 				5BDDB2611EAA8D3F00354670 /* LaunchScreen.storyboard */,
 				5BDDB2641EAA8D3F00354670 /* Info.plist */,
 			);
-			path = FaceIt;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +152,7 @@
 			files = (
 				5BDDB25B1EAA8D3F00354670 /* ViewController.swift in Sources */,
 				5BDDB2591EAA8D3F00354670 /* AppDelegate.swift in Sources */,
+				5BDDB26C1EAA8E2900354670 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
